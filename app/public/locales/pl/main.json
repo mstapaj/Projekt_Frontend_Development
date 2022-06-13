@@ -61,5 +61,14 @@
     "birth-date-req": "Data urodzenia jest wymagana",
     "nationality-req": "Narodowość jest wymagana",
     "select-director": "Wybierz reżysera",
-    "change-director": "Zmień reżysera"
+    "change-director": "Zmień reżysera",
+    "next-page": "Następna strona",
+    "prev-page": "Poprzednia strona",
+    "page": "Strona",
+    "sci-fi": "Sci-Fi",
+    "horror": "Horror",
+    "drama": "Dramat",
+    "comedy": "Komedia",
+    "thriller": "Thriller",
+    "action": "Akcja"
 }

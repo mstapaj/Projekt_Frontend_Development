@@ -1,19 +1,24 @@
+import { useTranslation } from "react-i18next";
+
 const Paginate = ({ page, setPage, maxItems, elements }) => {
+    const { t } = useTranslation();
     return (
         <>
             {elements > maxItems ? (
                 <div className={"paginate"}>
                     {page - maxItems >= 0 ? (
                         <button onClick={() => setPage(page - maxItems)}>
-                            Poprzednia strona
+                            {t("prev-page")}
                         </button>
                     ) : (
                         <button className={"empty"} />
                     )}
-                    <p>Strona {page / maxItems + 1}</p>
+                    <p>
+                        {t("page")} {page / maxItems + 1}
+                    </p>
                     {page + maxItems < elements ? (
                         <button onClick={() => setPage(page + maxItems)}>
-                            Następna strona
+                            {t("next-page")}
                         </button>
                     ) : (
                         <button className={"empty"} />

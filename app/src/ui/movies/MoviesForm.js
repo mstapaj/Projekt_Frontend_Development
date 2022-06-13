@@ -119,22 +119,22 @@ const MoviesForm = ({
                         {t("genre")}
                         <Field name={"genre"} as={"select"}>
                             <option key={"Sci-Fi"} value={"Sci-Fi"}>
-                                Sci-Fi
+                                {t("sci-fi")}
                             </option>
                             <option key={"Horror"} value={"Horror"}>
-                                Horror
+                                {t("horror")}
                             </option>
                             <option key={"Dramat"} value={"Dramat"}>
-                                Dramat
+                                {t("drama")}
                             </option>
                             <option key={"Komedia"} value={"Komedia"}>
-                                Komedia
+                                {t("comedy")}
                             </option>
                             <option key={"Thriller"} value={"Thriller"}>
-                                Thriller
+                                {t("thriller")}
                             </option>
                             <option key={"Akcja"} value={"Akcja"}>
-                                Akcja
+                                {t("action")}
                             </option>
                         </Field>
                     </div>

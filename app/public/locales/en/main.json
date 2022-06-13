@@ -61,5 +61,14 @@
     "birth-date-req": "Date of birth is required",
     "nationality-req": "Nationality is required",
     "select-director": "Choose director",
-    "change-director": "Change director"
+    "change-director": "Change director",
+    "next-page": "Next page",
+    "prev-page": "Previous page",
+    "page": "Page",
+    "sci-fi": "Sci-Fi",
+    "horror": "Horror",
+    "drama": "Drama",
+    "comedy": "Comedy",
+    "thriller": "Thriller",
+    "action": "Action"
 }
