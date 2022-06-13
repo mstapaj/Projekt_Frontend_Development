@@ -1,489 +1,489 @@
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 body .App .title {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  background-color: black;
-  justify-content: space-between;
-  font-weight: bold;
-  position: sticky;
-  top: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
 }
 body .App .title p {
-  font-size: 30px;
-  color: #ffdb28;
-  margin-left: 30px;
+    font-size: 30px;
+    color: #ffdb28;
+    margin-left: 30px;
 }
 body .App .title p:hover {
-  cursor: pointer;
-  color: white;
-  transition: all 0.3s ease;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
 }
 body .App .title div {
-  display: flex;
+    display: flex;
 }
 body .App .title div ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  gap: 20px;
-  margin-right: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 20px;
+    margin-right: 20px;
 }
 body .App .title div ul li {
-  color: white;
-  padding: 10px;
-  font-weight: bold;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
 }
 body .App .title div ul li:hover {
-  transition: all 0.3s ease;
-  background-color: white;
-  border-radius: 4px;
-  color: black;
-  cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
 }
 body .App .title div ul .lang {
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 body .App .title div ul .lang div {
-  flex: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: bold;
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
 }
 body .App .title div ul .lang div:hover {
-  transition: all 0.2s ease;
-  background-color: white;
-  border-radius: 4px;
-  color: black;
-  cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
 }
 body .App .App {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 body .App .App .details-movie {
-  display: grid;
-  border: solid 2px black;
-  border-radius: 4px;
-  grid-template-columns: 400px auto;
-  margin: 20px 100px;
+    display: grid;
+    border: solid 2px black;
+    border-radius: 4px;
+    grid-template-columns: 400px auto;
+    margin: 20px 100px;
 }
 body .App .App .details-movie .data {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 body .App .App .details-movie .data .paragrafs {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 body .App .App .details-movie .data .paragrafs form {
-  flex: 100%;
-  display: flex;
-  flex-wrap: wrap;
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 body .App .App .details-movie .data .paragrafs form .changing {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
 }
 body .App .App .details-movie .data .paragrafs form .changing select {
-  flex: 50%;
-  height: 28px;
+    flex: 50%;
+    height: 28px;
 }
 body .App .App .details-movie .data .paragrafs form .changing button {
-  margin: 2px;
-  padding: 4px;
+    margin: 2px;
+    padding: 4px;
 }
 body .App .App .details-movie .data .paragrafs p {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App .details-movie .data .paragrafs .director:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 body .App .App .details-movie .data .paragrafs .actors {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 body .App .App .details-movie .data .paragrafs .actors div {
-  display: flex;
-  flex: 100%;
-  margin: 0;
+    display: flex;
+    flex: 100%;
+    margin: 0;
 }
 body .App .App .details-movie .data .paragrafs .actors ul {
-  flex: 100%;
-  padding-left: 20px;
+    flex: 100%;
+    padding-left: 20px;
 }
 body .App .App .details-movie .data .paragrafs .actors ul div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
 }
 body .App .App .details-movie .data .paragrafs .actors ul div li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 body .App .App .details-movie .data .paragrafs .actors button {
-  padding: 4px;
+    padding: 4px;
 }
 body .App .App .details-movie .data .buttons {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 body .App .App .details-movie .photo img {
-  height: 500px;
-  width: 400px;
-  box-shadow: lightgray 4px 4px 4px;
+    height: 500px;
+    width: 400px;
+    box-shadow: lightgray 4px 4px 4px;
 }
 body .App .App .details-person {
-  margin-top: 5px;
-  border: solid 2px black;
-  border-radius: 4px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 700px;
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
 }
 body .App .App .details-person p {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App .details-person div {
-  flex: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
 body .App .App .details-person div div {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App .details-person ul {
-  margin: 2px;
+    margin: 2px;
 }
 body .App .App .details-person ul li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 body .App .App .form {
-  margin-top: 5px;
-  border: solid 2px black;
-  border-radius: 4px;
-  width: 460px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 4px;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 body .App .App .form .adding {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 body .App .App .form .adding label {
-  padding: 0 20px;
-  flex: 100%;
+    padding: 0 20px;
+    flex: 100%;
 }
 body .App .App .form form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 body .App .App .form form h3 {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App .form form div {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App .form form div p {
-  margin: 0;
+    margin: 0;
 }
 body .App .App .stats {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 body .App .App .stats div {
-  width: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 body .App .App .stats div p {
-  text-align: center;
+    text-align: center;
 }
 body .App .App .stats h3 {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App div {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 body .App .App div p {
-  margin: 10px;
+    margin: 10px;
 }
 body .App .App div div {
-  margin: 10px;
+    margin: 10px;
 }
 body .App .App div h3 {
-  text-align: center;
+    text-align: center;
 }
 body .App .App div .left {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 body .App .App div .left div {
-  flex: 100%;
-  border: solid 2px black;
-  border-radius: 4px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5px 10px;
+    flex: 100%;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px 10px;
 }
 body .App .App div .left div .sort {
-  padding: 0;
-  border: none;
+    padding: 0;
+    border: none;
 }
 body .App .App div .left div .sort p {
-  flex: 100%;
-  margin: 2px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: center;
-  width: 0;
+    flex: 100%;
+    margin: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 0;
 }
 body .App .App div .left div .sort p input:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 body .App .App div .left div h4 {
-  flex: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4px;
-  margin: 0;
-  text-align: center;
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    margin: 0;
+    text-align: center;
 }
 body .App .App div .left div form {
-  flex: 100%;
+    flex: 100%;
 }
 body .App .App div .left div form div {
-  display: flex;
-  flex-wrap: wrap;
-  border: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
 }
 body .App .App div .left div form div label {
-  flex: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: center;
+    flex: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
 }
 body .App .App div .left div form div label:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 body .App .App div .left div input {
-  margin: 6px;
+    margin: 6px;
 }
 body .App .App div .left button {
-  margin: 5px 10px;
-  flex: 100%;
+    margin: 5px 10px;
+    flex: 100%;
 }
 body .App .App div .right {
-  display: flex;
-  flex-wrap: wrap;
-  height: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
 }
 body .App .App div .right .paginate {
-  display: flex;
-  flex: 100%;
-  justify-content: space-between;
-  margin: 0 20px;
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    margin: 0 20px;
 }
 body .App .App div .right .paginate button {
-  width: 170px;
+    width: 170px;
 }
 body .App .App div .right .paginate .empty {
-  border: none;
+    border: none;
 }
 body .App .App div .right .paginate .empty:hover {
-  cursor: default;
-  background-color: white;
+    cursor: default;
+    background-color: white;
 }
 body .App .App div .right h3 {
-  flex: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  height: 40px;
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 40px;
 }
 body .App .App div .right div {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
 }
 body .App .App div .right div .persons {
-  border: 2px lightgray solid;
-  border-radius: 4px;
-  font-size: 30px;
-  padding: 5px 15px;
-  margin: 5px;
+    border: 2px lightgray solid;
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 5px 15px;
+    margin: 5px;
 }
 body .App .App div .right div .list:hover {
-  cursor: pointer;
-  background-color: lightgray;
-  transition: 0.3s all ease;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: 0.3s all ease;
 }
 body .App .App div .right div .movies {
-  border: 2px lightgray solid;
-  display: grid;
-  grid-template-columns: 150px 1fr;
+    border: 2px lightgray solid;
+    display: grid;
+    grid-template-columns: 150px 1fr;
 }
 body .App .App div .right div .movies .photo img {
-  height: 200px;
-  width: 150px;
-  box-shadow: lightgray 4px 4px 4px;
+    height: 200px;
+    width: 150px;
+    box-shadow: lightgray 4px 4px 4px;
 }
 body .App .App div .right div .movies .info {
-  display: flex;
-  justify-content: space-between;
-  height: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 0;
 }
 body .App .App div .right div .movies .info p {
-  margin-left: 20px;
-  flex: 100%;
-  padding: 0;
+    margin-left: 20px;
+    flex: 100%;
+    padding: 0;
 }
 body .App .App div .right div .movies .info p:first-of-type {
-  font-weight: bold;
-  font-size: 32px;
-  margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 60px;
 }
 body button {
-  padding: 10px 20px;
-  background-color: white;
-  border: 2px black solid;
-  font-size: 15px;
-  border-radius: 4px;
-  margin: 2px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px black solid;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 2px;
 }
 body button:hover {
-  background-color: #ffdb28;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    background-color: #ffdb28;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 630px) {
-  body .App .title {
-    position: static;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: center;
-  }
-  body .App .title div ul {
-    flex-wrap: wrap;
-  }
-  body .App .title div ul li {
-    text-align: center;
-  }
-  body .App .App div {
-    display: block;
-  }
-  body .App .App div .right {
-    height: auto;
-  }
+    body .App .title {
+        position: static;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+    body .App .title div ul {
+        flex-wrap: wrap;
+    }
+    body .App .title div ul li {
+        text-align: center;
+    }
+    body .App .App div {
+        display: block;
+    }
+    body .App .App div .right {
+        height: auto;
+    }
 }
 @media (max-width: 400px) {
-  body .App .App .details-movie {
-    margin: 20px;
-    width: auto;
-  }
-  body .App .App .stats div {
-    width: 250px;
-  }
-  body .App .App .main .right div {
-    height: auto;
-  }
-  body .App .App .main .right div .movies {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  body .App .App .main .right div .movies .photo {
-    display: flex;
-    justify-content: center;
-  }
-  body .App .App .main .right div .movies .info {
-    height: auto;
-  }
-  body .App .App .main .right div .movies .info p:first-of-type {
-    margin-bottom: 10px;
-  }
+    body .App .App .details-movie {
+        margin: 20px;
+        width: auto;
+    }
+    body .App .App .stats div {
+        width: 250px;
+    }
+    body .App .App .main .right div {
+        height: auto;
+    }
+    body .App .App .main .right div .movies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body .App .App .main .right div .movies .photo {
+        display: flex;
+        justify-content: center;
+    }
+    body .App .App .main .right div .movies .info {
+        height: auto;
+    }
+    body .App .App .main .right div .movies .info p:first-of-type {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 830px) {
-  body .App .App .details-movie {
-    display: block;
-  }
-  body .App .App .details-movie .photo {
-    display: flex;
-    justify-content: center;
-  }
+    body .App .App .details-movie {
+        display: block;
+    }
+    body .App .App .details-movie .photo {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media (max-width: 450px) {
-  body .App .App .data .paragrafs .actors {
-    width: auto;
-  }
-  body .App .App .details-movie {
-    margin: 20px;
-  }
-  body .App .App .details-movie .photo img {
-    height: 180px;
-    width: 120px;
-  }
-  body .App .App .details-movie .buttons {
-    flex-wrap: wrap;
-  }
+    body .App .App .data .paragrafs .actors {
+        width: auto;
+    }
+    body .App .App .details-movie {
+        margin: 20px;
+    }
+    body .App .App .details-movie .photo img {
+        height: 180px;
+        width: 120px;
+    }
+    body .App .App .details-movie .buttons {
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 500px) {
-  .App .App .right .paginate {
-    justify-content: center;
-  }
-  .App .App .right .paginate p {
-    order: -1;
-    text-align: center;
-    flex: 100%;
-  }
-  .App .App .right .paginate button {
-    flex: 100%;
-  }
-  .App .App .right .paginate .empty {
-    display: none;
-  }
+    .App .App .right .paginate {
+        justify-content: center;
+    }
+    .App .App .right .paginate p {
+        order: -1;
+        text-align: center;
+        flex: 100%;
+    }
+    .App .App .right .paginate button {
+        flex: 100%;
+    }
+    .App .App .right .paginate .empty {
+        display: none;
+    }
 }
 @media (min-width: 629px) and (max-width: 700px) {
-  .App .App .right .paginate {
-    justify-content: center;
-  }
-  .App .App .right .paginate p {
-    order: -1;
-    text-align: center;
-    flex: 100%;
-  }
-  .App .App .right .paginate button {
-    flex: 100%;
-  }
-  .App .App .right .paginate .empty {
-    display: none;
-  }
+    .App .App .right .paginate {
+        justify-content: center;
+    }
+    .App .App .right .paginate p {
+        order: -1;
+        text-align: center;
+        flex: 100%;
+    }
+    .App .App .right .paginate button {
+        flex: 100%;
+    }
+    .App .App .right .paginate .empty {
+        display: none;
+    }
 }
 
 /*# sourceMappingURL=App.css.map */

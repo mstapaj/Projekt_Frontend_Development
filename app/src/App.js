@@ -17,66 +17,106 @@ import Backend from "i18next-http-backend";
 import languages from "./config/languages.json";
 
 const language = languages.find(
-  (value) => value === localStorage.getItem("language")
+    (value) => value === localStorage.getItem("language")
 );
 
 i18next
-  .use(Backend)
-  .use(initReactI18next)
-  .init({
-    lng: language || "en",
-    fallbackLng: "en",
-    ns: ["main"],
-    defaultNS: "main",
-    react: {
-      wait: true,
-      useSuspense: false,
-    },
-    interpolation: {
-      escapeValue: false,
-    },
-    backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
-    },
-  });
+    .use(Backend)
+    .use(initReactI18next)
+    .init({
+        lng: language || "en",
+        fallbackLng: "en",
+        ns: ["main"],
+        defaultNS: "main",
+        react: {
+            wait: true,
+            useSuspense: false,
+        },
+        interpolation: {
+            escapeValue: false,
+        },
+        backend: {
+            loadPath: "/locales/{{lng}}/{{ns}}.json",
+        },
+    });
 
 function App() {
-  const { i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    localStorage.setItem("language", lng);
-  };
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        localStorage.setItem("language", lng);
+    };
 
-  return (
-    <div className="App">
-      <ConfirmProvider>
-        <BrowserRouter>
-          <Navbar chLang={changeLanguage} />
-          <div className="App">
-            <Switch>
-              <Route exact path={"/"} component={MoviesList} />
-              <Route exact path={"/graphs"} component={Statistics} />
-              <Route exact path={"/persons"} component={PersonsList} />
-              <Route exact path={"/persons/add"} component={PersonsForm} />
-              <Route exact path={"/persons/:id"} component={PersonDetails} />
-              <Route exact path={"/persons/:id/edit"} component={PersonsForm} />
-              <Route exact path={"/movies"} component={MoviesList} />
-              <Route exact path={"/movies/add"} component={MoviesForm} />
-              <Route exact path={"/movies/:id"} component={MovieDetails} />
-              <Route exact path={"/movies/:id/edit"} component={MoviesForm} />
-              <Route
-                exact
-                path={"/movies/:id/addActors"}
-                component={MovieAddActor}
-              />
-              <Route exact path={"/actors"} component={ActorsList} />
-            </Switch>
-          </div>
-        </BrowserRouter>
-      </ConfirmProvider>
-    </div>
-  );
+    return (
+        <div className="App">
+            <ConfirmProvider>
+                <BrowserRouter>
+                    <Navbar chLang={changeLanguage} />
+                    <div className="App">
+                        <Switch>
+                            <Route exact path={"/"} component={MoviesList} />
+                            <Route
+                                exact
+                                path={"/graphs"}
+                                component={Statistics}
+                            />
+                            <Route
+                                exact
+                                path={"/persons"}
+                                component={PersonsList}
+                            />
+                            <Route
+                                exact
+                                path={"/persons/add"}
+                                component={PersonsForm}
+                            />
+                            <Route
+                                exact
+                                path={"/persons/:id"}
+                                component={PersonDetails}
+                            />
+                            <Route
+                                exact
+                                path={"/persons/:id/edit"}
+                                component={PersonsForm}
+                            />
+                            <Route
+                                exact
+                                path={"/movies"}
+                                component={MoviesList}
+                            />
+                            <Route
+                                exact
+                                path={"/movies/add"}
+                                component={MoviesForm}
+                            />
+                            <Route
+                                exact
+                                path={"/movies/:id"}
+                                component={MovieDetails}
+                            />
+                            <Route
+                                exact
+                                path={"/movies/:id/edit"}
+                                component={MoviesForm}
+                            />
+                            <Route
+                                exact
+                                path={"/movies/:id/addActors"}
+                                component={MovieAddActor}
+                            />
+                            <Route
+                                exact
+                                path={"/actors"}
+                                component={ActorsList}
+                            />
+                        </Switch>
+                    </div>
+                </BrowserRouter>
+            </ConfirmProvider>
+        </div>
+    );
 }
 
 export default App;

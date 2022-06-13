@@ -8,9 +8,7 @@
   "host": "localhost:5000",
   "basePath": "/",
   "tags": [],
-  "schemes": [
-    "http"
-  ],
+  "schemes": ["http"],
   "consumes": [],
   "produces": [],
   "paths": {

@@ -72,7 +72,7 @@ To Visit App:
 ## Functionalities
 
 -   The application is responsive (supports phone, tablet and normal computer view).
--   It has two language versions (Polish and English) that can be switched with the click of a button. It saves the last selected language version.
+-   It has two languages versions (Polish and English) that can be switched with the click of a button. It saves the last selected language version.
 -   It has the possibility to display all movies and people (directors and actors), the number of records is divided by pagination
 -   Both lists can be filtered by 3 different types of fields, and sorting is available.
 -   It is possible to add records, all records are validated.
